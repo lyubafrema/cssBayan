@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'Josefin Sans';
+	src: url('JosefinSans-Light.woff2') format('woff2') url('JosefinSans-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Josefin Sans';
+	src: url('JosefinSans-Regular.woff2') format('woff2') url('JosefinSans-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
