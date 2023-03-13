@@ -1,5 +1,4 @@
 .root {
-  max-width: 1920px;
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0;
@@ -66,7 +65,6 @@
   width: 100%;
   margin: 0;
   padding: 0;
-  font-size: 1.5em;
   cursor: pointer;
   transition: color 0.2s ease-in-out;
 }
@@ -103,7 +101,6 @@
   color: #9f2793;
 }
 
-
 .meme__input:checked + .meme__label .meme__container .meme__icon {
   transform: rotate(45deg);
 }
@@ -132,9 +129,6 @@
 }
 
 @media screen and (max-width: 1920px) {
-  .root {
-    max-width: 120em;
-  }
   .header__title {
     font-size: 2em;
   }
@@ -142,7 +136,7 @@
     font-size: 1em;
   }
   .meme__title {
-    font-size: 1em;
+    font-size: 1.5em;
   }
   .meme__icon {
     font-size: 1.5em;
@@ -151,7 +145,7 @@
 
 @media screen and (max-width: 820px) {
   .root {
-    max-width: 51,25em;
+    max-width: 51.25em;
   }
   .header__title {
     font-size: 1.8em;
